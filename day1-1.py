@@ -13,3 +13,9 @@ def create_list_of_elves(input_list):
 elves = create_list_of_elves(input)
 
 print(max(elves))
+
+## PART 2 ##
+
+top_3_elves_together = sum(sorted(elves)[-3:])
+print(top_3_elves_together)
+
